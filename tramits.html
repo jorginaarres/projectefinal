@@ -40,14 +40,13 @@
 			
 
 				.sidenav {
-				    width: 20%;
+				    width: 100%;
 
 				    z-index: 1;
-				    top: 20px;
-				    left: 10px;
+				 
 				    background: #eee;
 				    overflow-x: hidden;
-				    padding: 8px 0;
+				    padding: 0;
 				    margin:0;
 
 				}
@@ -65,16 +64,23 @@
 				}
 
 				.main {
-				    margin-left: 25%; /* Same width as the sidebar + left position in px */
-				
+				    margin-left: 0%; /* Same width as the sidebar + left position in px */
+					
 				}
 
-				@media screen and (max-height: 450px) {
-				    .sidenav {padding-top: 15px;}
-				    .sidenav a {font-size: 18px;}
+				aside{
+					width: 25%;
+					margin: 2%;
+				}
+				content{
+					width: 65%;
+					margin:2%;
 				}
 
-
+				#contenidor{
+					display: flex;
+					flex-direction: row;
+				}
 
 
 
@@ -137,7 +143,7 @@
 			</nav>
 	
 		
-
+<div id="contenidor">
 
 	 		<aside>
 	 			<div class="sidenav">
@@ -191,7 +197,7 @@
 
 				
 			</content>
-
+</div>
 			<footer>
 				<p>Aquest web utilitza cookies pròpies per oferir una millor experiència i servei. En continuar la navegació entenem que acceptes la nostra política de cookies.</p>
 				<p>Ajuntament d'Esterri d'Àneu| 973 444 555 666| C/CursHTML, 1 25580 Esterri d'Àneu<p>
