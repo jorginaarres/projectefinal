@@ -122,3 +122,10 @@
 				textarea{
 					width: 100%;
 				}
+				#up{
+				
+					padding: 5%;
+					bottom: 20%;
+					right:0;
+					position: fixed;
+				}
